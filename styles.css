@@ -1,0 +1,9 @@
+body {
+  text-align: center;
+}
+
+canvas {
+  margin: 0 auto;
+  background-color: rgb(175, 172, 167);
+  border: 100px solid rgb(200, 0, 11);
+}
