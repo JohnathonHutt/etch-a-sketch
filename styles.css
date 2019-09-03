@@ -2,8 +2,17 @@ body {
   text-align: center;
 }
 
+h1 {
+  color: rgb(212, 175, 55);
+  font-style: italic;
+}
+
 canvas {
   margin: 0 auto;
   background-color: rgb(175, 172, 167);
   border: 100px solid rgb(200, 0, 11);
+}
+
+p {
+  font-family: arial;
 }
