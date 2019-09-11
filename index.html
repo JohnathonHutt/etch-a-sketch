@@ -6,10 +6,21 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1>Etch-A-Sketch</h1>
-    <canvas id="canvas" width="600" height="400"></canvas>
-    <p>Use the arrow keys to sketch.</p>
-
+    <div class="redBox">
+      <h1>Etch-A-Sketch</h1>
+      <canvas id="canvas" width="600" height="400"></canvas>
+      <div class="knobBox">
+        <div class="knob left">
+          <div id="top-left" class="top"></div>
+          <div id="bott-left" class="bottom"></div>
+        </div>
+        <!-- <p>Use the arrow keys to sketch.</p> -->
+        <div class="knob right">
+          <div id="top-right" class="top"></div>
+          <div id="bott-right" class="bottom"></div>
+        </div>
+      </div>
+    </div>
     <script src="index.js" charset="utf-8"></script>
   </body>
 </html>

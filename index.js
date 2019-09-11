@@ -3,6 +3,11 @@
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 
+const upButton = document.getElementById('top-left');
+const downButton = document.getElementById('bott-left');
+const leftButton = document.getElementById('top-right');
+const rightButton = document.getElementById('bott-right');
+
 let pencil = {
   x: canvas.width / 2,
   y: canvas.height / 2
@@ -52,6 +57,10 @@ function keyUpHandler(e) {
     default:
       console.log(e.keyCode);
   }
+}
+
+function upButtonHandler() {
+
 }
 
 function checkR() {

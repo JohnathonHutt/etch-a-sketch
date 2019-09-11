@@ -1,16 +1,64 @@
 body {
   text-align: center;
+  box-sizing: border-box;
+}
+
+.redBox {
+  background-color: rgb(200, 0, 11);
+  border-radius: 8px;
+  display: inline-block;
+  height: 620px;
+  width: 800px;
+  padding-top: 20px;
 }
 
 h1 {
   color: rgb(212, 175, 55);
   font-style: italic;
+  padding-bottom: 20px;
 }
 
 canvas {
   margin: 0 auto;
   background-color: rgb(175, 172, 167);
-  border: 100px solid rgb(200, 0, 11);
+  border-radius: 8px;
+}
+
+.knobBox {
+  width: 760px;
+  margin: 0 auto;
+}
+
+.knob {
+  background-color: white;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.top {
+  width: 100px;
+  height: 50px;
+  background-color: white;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.bottom {
+  width: 100px;
+  height: 50px;
+  background-color: white;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
 }
 
 p {
